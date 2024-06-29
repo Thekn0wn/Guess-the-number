@@ -4,7 +4,7 @@ var ale = () => {
   alert('😊Random numbers are generated between 1-20...Pls enter accordingly');
 }; //Displaying alert
 
-let secretNumber = Math.floor(Math.random() * 20) + 1; //Gnerating random no.
+let secretNumber = Math.floor(Math.random() * 10) + 1; //Gnerating random no.
 
 let score = 20; //score variable
 let highScore = 0; //highScore variable
