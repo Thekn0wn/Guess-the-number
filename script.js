@@ -65,7 +65,7 @@ document.querySelector('.check').addEventListener('click', function () {
 document.querySelector('.again').addEventListener('click', function () {
   //again function
   score = 20;
-  secretNumber = Math.floor(Math.random() * 20) + 1;
+  secretNumber = Math.floor(Math.random() * 10) + 1;
 
   document.querySelector('.message').textContent = 'Start guessing...'; //replacing text
   document.querySelector('.score').textContent = score; //replacing text
